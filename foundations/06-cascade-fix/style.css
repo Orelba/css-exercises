@@ -1,6 +1,11 @@
+body{
+  font-family:Arial, Helvetica, sans-serif
+}
+
 .para,
 .small-para {
-  color: hsl(0, 100%, 50%);
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
 }
 
 .para {
@@ -8,7 +13,8 @@
 }
 
 .small-para {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 800;
 }
 
 .button {
@@ -20,10 +26,10 @@
 .confirm {
   background: green;
   color: white;
-  font-size: 20px;
   font-weight: bold;
 } 
 
+<<<<<<< HEAD
 div.text {
   color: green;
   font-size: 28px;
@@ -33,3 +39,22 @@ div.text {
   color: red;
   font-size: 14px;
 }
+=======
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+>>>>>>> 913a07782365d1597ffb5bf29dde4c64909ebfcf

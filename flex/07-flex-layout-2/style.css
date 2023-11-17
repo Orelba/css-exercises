@@ -44,12 +44,16 @@ ul,
   flex: 1 0 auto;
   width: 300px;
   background: royalblue;
+<<<<<<< HEAD
   padding: 16px;
 }
 
 .cards {
   flex-wrap: wrap;
   padding: 32px;
+=======
+  box-sizing: border-box;
+>>>>>>> e1dbb71bb680cfca15e45814978badf16014614e
 }
 
 .card {

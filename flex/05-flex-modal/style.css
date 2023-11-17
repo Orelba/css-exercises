@@ -59,14 +59,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   margin-left: auto;
 }
 
 .text {
   margin-bottom: 16px;
+=======
+  border: 1px solid #eee;
+  padding: 0;
+>>>>>>> e1dbb71bb680cfca15e45814978badf16014614e
 }
 
 button {
+  cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
 }
